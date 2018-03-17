@@ -3,7 +3,6 @@
     "name": "Shanbay helper",
     "description": "A helpful extension of Shanbay.",
     "version": "0.0.1",
-    "options_page": "options.html",
     "externally_connectable": {
         "ids": [
             "*"

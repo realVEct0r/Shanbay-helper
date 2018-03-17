@@ -3,7 +3,7 @@ function Shanbay(conf) {
 }
 
 Shanbay.prototype.authorize = function() {
-    var url = `${this.conf.ShanbayConf.api_root}${this.conf.ShanbayConf.auth_url}?response_type=token&client_id=${localStorage.getItem("key")}`;
+    var url = `${this.conf.ShanbayConf.api_root}${this.conf.ShanbayConf.auth_url}?response_type=token&client_id=${this.conf.AppConf.app_key}`;
     chrome.tabs.create({ url: url }, function(tab) {
         window.Shanbay.tabId = tab.id;
     });

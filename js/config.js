@@ -1,6 +1,8 @@
 var Conf = {
     AppConf: {
         "callback": "https://api.shanbay.com/oauth2/auth/success/",
+        "app_key": "app_key_here",
+        "app_secret": "app_secret_here"
     },
     ShanbayConf: {
         "api_version": "1.0",
