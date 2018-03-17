@@ -16,8 +16,7 @@
         "tabs",
         "webRequest",
         "webRequestBlocking",
-        "background",
-        "https://api.shanbay.com/"
+        "background"
     ],
     "background": {
         "scripts": [
