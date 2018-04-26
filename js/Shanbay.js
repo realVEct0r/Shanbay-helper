@@ -40,9 +40,9 @@ Shanbay.prototype.makeHeader = function() {
 }
 
 Shanbay.prototype.access_token = function() {
-    if (localStorage.getItem("expair_at") < new Date()) {
+    if (Date.parse(localStorage.getItem("expired_at")) < new Date()) {
         localStorage.removeItem("access_token");
-        localStorage.removeItem("expair_at");
+        localStorage.removeItem("expired_at");
     }
     return localStorage.access_token;
 }
