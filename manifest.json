@@ -15,8 +15,7 @@
     "permissions": [
         "tabs",
         "webRequest",
-        "webRequestBlocking",
-        "background"
+        "webRequestBlocking"
     ],
     "background": {
         "scripts": [
